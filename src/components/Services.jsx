@@ -8,13 +8,6 @@ function Services() {
             <div className='flex flex-col md:flex-row md:gap-0 mt-20 md:mt-0'>
                 <div className='flex-1 flex justify-center flex-col'>
                     <p className='py-2 md:text-[20px]'>I am a smart worker and a quick learner who is passionate about his skills and want to enhance them so that i can be an asset for my organization. Talking about my skillset i am skilled in Modern Front-End technologies such as React.js & Tailwind CSS also i have some experience with UI/UX designing.</p>
-                    <div className='gap-4 text-[18px] font-bold max-w-max py-2 hidden md:flex'>
-                        <p>Web Development</p>
-                        <span>||</span>
-                        <p>Web Designing</p>
-                        <span>||</span>
-                        <p>UI/UX</p>
-                    </div>
                 </div>
                 <div className='flex-1 flex justify-center items-center'>
                     <img className='w-[30rem] md:w-[35rem]' src={service} alt="" />
