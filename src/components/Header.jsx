@@ -14,12 +14,12 @@ export default function Header() {
         </div>
       </div>
       <div className={`flex w-full items-center bg-white md:bg-none md:max-w-max flex-col md:relative md:flex md:flex-row gap-8 z-50 py-[5rem] md:py-0 ${open ? "translate-x-[0]" : "translate-x-[-600px]"} transition-all md:translate-x-0`}>
-        <span className='cursor-pointer hover:-translate-y-1 duration-300 hover:text-[#202595] transition-all max-w-max'>Home</span>
-        <span className='cursor-pointer hover:-translate-y-1 duration-300 hover:text-[#202595] transition-all max-w-max'>Services</span>
-        <span className='cursor-pointer hover:-translate-y-1 duration-300 hover:text-[#202595] transition-all max-w-max'>Skills</span>
-        <span className='cursor-pointer hover:-translate-y-1 duration-300 hover:text-[#202595] transition-all max-w-max'>Portfolio</span>
-        <span className='cursor-pointer hover:-translate-y-1 duration-300 hover:text-[#202595] transition-all max-w-max'>Experience</span>
-        <span className='cursor-pointer hover:-translate-y-1 duration-300 hover:text-[#202595] transition-all max-w-max'>Contact</span>
+        <span className='cursor-pointer hover:-translate-y-1 duration-300 transition-all max-w-max'>Home</span>
+        <span className='cursor-pointer hover:-translate-y-1 duration-300 transition-all max-w-max'>Services</span>
+        <span className='cursor-pointer hover:-translate-y-1 duration-300 transition-all max-w-max'>Skills</span>
+        <span className='cursor-pointer hover:-translate-y-1 duration-300 transition-all max-w-max'>Portfolio</span>
+        <span className='cursor-pointer hover:-translate-y-1 duration-300 transition-all max-w-max'>Experience</span>
+        <span className='cursor-pointer hover:-translate-y-1 duration-300 transition-all max-w-max'>Contact</span>
       </div>
     </div>
   )

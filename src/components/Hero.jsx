@@ -15,13 +15,13 @@ function Hero() {
                 <div className='flex-1 flex flex-col justify-center'>
                     <span className='text-[25px] md:text-[35px] font-thin'>Hello,</span>
                     <span className='flex gap-1 text-[32px] md:text-[45px]'>I'm <h1 className='font-bold'>Yash Pathak</h1> </span>
-                    <div className='w-[9rem] md:w-[15rem] h-[3px] bg-[#202595] my-2'></div>
+                    <div className='w-[9rem] md:w-[15rem] h-[3px] bg-black/80 my-2'></div>
                     <p className='md:text-[20px]'>Front-End Developer skilled in React.js & Tailwind CSS, and a UI/UX designer.</p>
                     <button className='btn my-3 flex justify-center items-center gap-2 hover:rotate-2'><FiDownload className='text-[20px]' />Download CV</button>
 
                 </div>
                 <div className="flex-1 flex justify-center items-center">
-                    <div className='w-[16rem] h-[16rem] md:w-[22rem] md:h-[22rem] p-5 md:p-8 rounded-full bg-blue-100 backdrop-blur-3xl flex justify-center items-center'>
+                    <div className='w-[16rem] h-[16rem] md:w-[22rem] md:h-[22rem] p-5 md:p-8 rounded-full bg-black/10 backdrop-blur-3xl flex justify-center items-center'>
                         <img className='w-[14rem] md:w-[20rem]' src={profile} alt="" />
                     </div>
                 </div>
