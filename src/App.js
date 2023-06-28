@@ -1,3 +1,5 @@
+import Contact from "./components/Contact";
+import GoToTop from "./components/GoToTop";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Portfolio from "./components/Portfolio";
@@ -12,6 +14,8 @@ export default function App() {
       <Services />
       <Skills />
       <Portfolio />
+      <Contact />
+      <GoToTop />
     </>
   )
 }

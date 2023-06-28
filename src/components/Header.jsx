@@ -14,12 +14,11 @@ export default function Header() {
         </div>
       </div>
       <div className={`flex w-full items-center bg-white md:bg-none md:max-w-max flex-col md:relative md:flex md:flex-row gap-8 z-50 py-[5rem] md:py-0 ${open ? "translate-x-[0]" : "translate-x-[-600px]"} transition-all md:translate-x-0`}>
-        <span className='cursor-pointer hover:-translate-y-1 duration-300 transition-all max-w-max'>Home</span>
-        <span className='cursor-pointer hover:-translate-y-1 duration-300 transition-all max-w-max'>Services</span>
-        <span className='cursor-pointer hover:-translate-y-1 duration-300 transition-all max-w-max'>Skills</span>
-        <span className='cursor-pointer hover:-translate-y-1 duration-300 transition-all max-w-max'>Portfolio</span>
-        <span className='cursor-pointer hover:-translate-y-1 duration-300 transition-all max-w-max'>Experience</span>
-        <span className='cursor-pointer hover:-translate-y-1 duration-300 transition-all max-w-max'>Contact</span>
+        <span onClick={()=>setOpen(!open)} className='cursor-pointer hover:-translate-y-1 duration-300 transition-all max-w-max'><a href="#hero">Home</a></span>
+        <span onClick={()=>setOpen(!open)} className='cursor-pointer hover:-translate-y-1 duration-300 transition-all max-w-max'><a href="#service">Services</a></span>
+        <span onClick={()=>setOpen(!open)} className='cursor-pointer hover:-translate-y-1 duration-300 transition-all max-w-max'><a href="#skill">Skills</a></span>
+        <span onClick={()=>setOpen(!open)} className='cursor-pointer hover:-translate-y-1 duration-300 transition-all max-w-max'><a href="#portfolio">Portfolio</a></span>
+        <span onClick={()=>setOpen(!open)} className='cursor-pointer hover:-translate-y-1 duration-300 transition-all max-w-max'><a href="#contact">Contact</a></span>
       </div>
     </div>
   )
